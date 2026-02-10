@@ -7,6 +7,9 @@ struct SwiftPlayground {
         let lunches = [6.50, 8.00, 5.75, 9.20, 7.10]
         let budget = 35.00
 
+
+        /// Calculates the total cost of all of the items in the list
+        ///   - Prices - A list that contains all of the prices 
         func totalCost(prices: [Double]) -> Double {
             var totalCost: Double = 0
 
@@ -46,3 +49,5 @@ struct SwiftPlayground {
 
     }
 }
+
+
