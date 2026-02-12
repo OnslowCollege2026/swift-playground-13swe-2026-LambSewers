@@ -32,7 +32,7 @@ struct SwiftPlayground {
         /// Repeats by adding the value to the total
         let averageScores = scores.reduce(0) {result, number in 
             return result + number
-        }
+        } / scores.count
         print("Average scores \(averageScores) should be the same as \(averageScores2)")
     }
 }
